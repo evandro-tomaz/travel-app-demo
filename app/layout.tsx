@@ -17,10 +17,13 @@ export default function RootLayout({
     <html lang="pt-br">
       <body>
         <Navbar />
-        <main className='relative overflow-hidden'>
+
+        <main className="relative overflow-hidden">
           {children}
         </main>
+
         <Footer />
+
       </body>
     </html>
   )
