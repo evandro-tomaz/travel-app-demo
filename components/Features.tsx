@@ -24,9 +24,9 @@ const Features = () => {
               alt='camp'
               width={50}
               height={50}
-              className='absolute left-[-5px] top-[-28px] w-10 lg:w-[50px]'
+              className='absolute left-[-5px] top-[-40px] w-10 lg:w-[50px]'
             />
-            <h2 className='bold-40 lg:bold-64'>Our Features</h2>
+            <h2 className='bold-40 lg:bold-64'>Nossas Características</h2>
           </div>
 
           <ul className='mt-10 grid gap-10 md:grid-cols-2 lg:mt-20 lg:gap-20'>
@@ -54,7 +54,7 @@ type FeatureItem = {
   description: string
 }
 
-const FeatureItem = ({title, icon, description}: FeatureItem) => {
+const FeatureItem = ({ title, icon, description }: FeatureItem) => {
   return (
     <li className='flex w-full flex-1 flex-col items-start'>
       <div className="rounded-full p-4 lg:p-7 bg-green-50">

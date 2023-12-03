@@ -10,8 +10,8 @@ const GetApp = () => {
 
         <div className="z-20 flex w-full flex-1 flex-col items-start justify-center gap-12">
 
-          <h2 className='bold-40 lg:bold-64 xl:max-w-[320px]'>Get for free now!</h2>
-          <p className="regular-16 text-gray-10">Available on Android and IOS</p>
+          <h2 className='bold-40 lg:bold-64 xl:max-w-[320px]'>Baixe Gratuitamente!</h2>
+          <p className="regular-16 text-gray-10">Disponível para Android e IOs</p>
 
           <div className="flex  w-full flex-col gap-4 whitespace-nowrap xl:flex-row">
             <Button
